@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column;
+    font: 16px/1.6 'Inter', sans-serif;
+    color: #757575;
+    padding: 0 4%;
+}
+
+img {
+    border: 2px solid #eadcdc;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+hr {
+    border-top: 2px solid #9a9a9a;
+}
+
+.head-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.heading {
+    font: 500 38px 'Graphik Trial', sans-serif;
+    color: #2f2e2e;
+}
+
+.hero {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-hero, .right-hero {
+    width: 50%
+}
+
+.right-hero {
+    border-left: 2px solid #9a9a9a;
+    padding-left: 40px;
+}
+
+.hero-line {
+    border: 2px solid black;
+    width: 5%;
+}
+
+.info, .profile {
+    padding: 40px 0;
+}
