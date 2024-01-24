@@ -5,7 +5,6 @@
 }
 
 body {
-    flex-direction: column;
     font: 16px/1.6 'Inter', sans-serif;
     color: #757575;
     padding: 0 4%;
@@ -13,6 +12,10 @@ body {
 
 img {
     border: 2px solid #eadcdc;
+}
+
+h3 {
+    color: #2f2e2e;
 }
 
 header {
@@ -26,25 +29,25 @@ hr {
 }
 
 .head-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding-left: 20px;
 }
 
-.heading {
+.heading, .left-heading {
     font: 500 38px 'Graphik Trial', sans-serif;
     color: #2f2e2e;
 }
 
 .hero {
-    padding-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
 .left-hero, .right-hero {
-    width: 50%
+    padding-top: 20px;
+}
+
+.right-hero {
+    width: 70%;
 }
 
 .right-hero {
@@ -53,10 +56,24 @@ hr {
 }
 
 .hero-line {
-    border: 2px solid black;
-    width: 5%;
+    border: 2px solid #2f2e2e;
+    width: 30px;
 }
 
-.info, .profile {
-    padding: 40px 0;
+.hero-section, .left-section {
+    padding-top: 30px;
+}
+
+.left-heading {
+    padding-top: 20px;
+}
+
+#tools-section, #skills-section {
+    padding-top: 30px;
+    color: #2f2e2e;
+
+}
+
+footer {
+    border: 2px solid black;
 }
